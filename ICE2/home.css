@@ -1,0 +1,21 @@
+.header{
+    width:100%;
+}
+
+.body{
+    max-width: 200px;
+    margin: 100px;
+    border-radius: 50%;
+}
+
+body{
+    background-color: rgb(95, 95, 95);
+}
+
+nav{
+    text-align: center;
+}
+
+nav img{
+    border: 10px solid black;
+}

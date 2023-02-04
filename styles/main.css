@@ -1,12 +1,16 @@
 h1, a {
     color:steelblue;
     text-align: center;
+    margin: 30px;
 }
 img {
     width: 300px;
     margin: 0 auto;
 }
 
+nav{
+    text-align: center;
+}
 p {
     text-align: center;
     width: 600px;
@@ -20,4 +24,9 @@ p {
 
 nav a {
     text-decoration: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
 }
