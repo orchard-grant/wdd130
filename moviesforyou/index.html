@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies For You</title>
+    <link rel="stylesheet" href="stylemfy.css">
 </head>
 <!-- <div>  -->
 <!-- take a look at div -->
+<div id="content">
 <body>
     <header>
-        <nav>
-            <a href="top5.html" target="_blank">Top 5 Movies</a>
-            <a href="qualities.html" target="_blank">Qualities</a>
-        </nav>
         <a id="link_logo" href="index.html">
             <img class="logo" src="pictures/moviesforyoulogo.png" alt="Movies for You logo">
         </a>
+        <nav>
+            <a class="nav-link" href="index.html" target="_blank">Home</a>
+            <a class="nav-link" href="top5.html" target="_blank">Top 5 Movies</a>
+            <a class="nav-link" href="qualities.html" target="_blank">Qualities</a>
+        </nav>
     </header>
-    <div id="banner">
-        <div id="banner-box">
+    <div class="banner">
+        <div class="banner-box">
             <img id="banner-img" src="pictures/rsz_1rsz_movies_theater.jpg" alt="banner image">
         </div>
         <section>
@@ -28,12 +31,13 @@
     </div>
     <main class="home-grid">
         <section id="homepage">
-            <p>Welcome to Movies for You! My name is Grant Orchard, and I love movies. I have seen many movies over the years, but I would hardly call myself a critic. This is a personal site where I, Grant Orchard, share opinions on movies  On this page, I will share opinions on my top 5 favorite movies, as well as what I think can make a good movie. Both pages are provided. Be aware that all of this is my personal opinion.</p>
-            <img id="homepageimg" src="pictures/movie_projector_new.jpg" alt="movie projector image">
+            <p id="opening">Welcome to Movies for You! My name is Grant Orchard, and I love movies. I have seen many movies over the years, but I would hardly call myself a critic. This is a personal site where I, Grant Orchard, share opinions on movies  On this page, I will share opinions on my top 5 favorite movies, as well as what I think can make a good movie. Both pages are provided. Be aware that all of this is my personal opinion.</p>
+            <img id="homepageimg" src="pictures/movie_proj_new.jpg" alt="movie projector image">
         </section>
     </main>
     <footer>
-        <p><a href="index.html">Movies For You - 2023</a></p>
+        <a class="nav-link" href="index.html">Movies For You - 2023</a>
+        <a class="nav-link" href="siteplan.html">Site Plan</a>
         <p>Grant Orchard</p>
         <a href="https://facebook.com">
             <img src="pictures/facebook.png" alt="fb icon">
@@ -43,5 +47,6 @@
         </a>
     </footer>
 </body>
+</div>
 <!-- </div> -->
 </html>
